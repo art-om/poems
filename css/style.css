@@ -1,0 +1,117 @@
+body {
+    background-color: #ebebe1;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-ExtraLight.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-ExtraLightItalic.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-Light.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-LightItalic.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-Regular.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-Italic.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-Bold.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('../fonts/Exo2-SemiBold.ttf') format('ttf');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.content{
+    display: inline-block;
+    height: auto;
+    justify-content: space-around;
+    padding-left: 130px;
+    padding-top: 20px;
+    
+    font-family: 'Exo2';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 19px;
+}
+
+a{
+    padding-right: 30px;
+}
+
+hr{
+    display: block;
+    height: 8px;
+    background-image: linear-gradient(90deg, rgb(53, 21, 21), transparent);
+    border: 0;
+    height: 1px;
+    margin-bottom: 25px;
+}
+
+.poems{
+    padding-top: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Exo2';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 19px;
+}
+
+.date{
+    font-size: 13px;
+    padding-bottom: 0px;
+    font-family: 'Exo2';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.icon{
+    padding-left: 260px;
+}
+
